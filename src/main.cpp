@@ -117,7 +117,7 @@ void setup()
   tft.setTextDatum(MC_DATUM);
   tft.setTextFont(2);
   tft.setTextColor(TFT_BLACK, TFT_SKYBLUE);
-  tft.drawString("Esperando Red", 67, 120);
+  tft.drawString("Esperando WiFi", 67, 120);
   dht.begin();
   delay(2000);
 
